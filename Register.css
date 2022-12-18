@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin:0%;
+    padding:0%;
+}
+body,html{
+    height:100%;
+}
+.background{
+    background-image:url("register_img.png");
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#anchor{
+    margin-left:750px;
+    display: inline-block;
+}
+ul li{
+    list-style: none;
+    margin-top: 40px;
+    display: inline-block;
+    padding-right: 40px;
+    font-family: 'poppins';
+    font-style: normal;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+#glass{
+    margin-top: 70px;
+    position: absolute;
+    width: 750px;
+    height: 500px;
+    right: 550px;
+    background: linear-gradient(270deg, rgba(253, 243, 243, 0.25) -1.69%, rgba(255, 255, 255, 0.25) 98.31%);
+    border-radius: 30px;
+
+}
+#register{
+    color: white;
+    font-family:'poppins';
+    margin-left: 20px;
+    margin-top:20px;
+}
+input[type=text]{
+    border-radius: 10px;
+    size:10px;
+    margin-top: -60px;
+    margin-left: 20px;
+    background: linear-gradient(180deg, #FAEFEF 0%, rgba(249, 233, 233, 0) 100%);
+    width: 280px;
+    height: 45px;
+}
+input[type=password]{
+    border-radius: 10px;
+    size:10px;
+    margin-top: -10px;
+    background: linear-gradient(180deg, #FAEFEF 0%, rgba(249, 233, 233, 0) 100%);
+    width: 280px;
+    height: 45px;
+}
+input[type=submit]{
+    font-family: 'poppins';
+    color:white;
+    background-color:rgb(19, 17, 17);
+    margin-left: -130px;
+    width: 200px;
+    height:50px;
+    border-radius: 15px;
+    margin-top: 140px;
+    
+}
+#txt{
+    font-family: 'poppins';
+    color: white;
+    margin-top: -30px;
+}
+#right{
+    margin-left:400px;
+    margin-top: -340px;
+}
+.logo{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 34px;
+    top: 43px;
+    margin-bottom: 50px;
+    margin-top: -30px;
+}

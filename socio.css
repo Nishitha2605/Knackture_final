@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body.html{
+    height:100%;
+}
+.background{
+    background-image:url("socio_img1.png");
+    height:250vh;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#anchor{
+    margin-left:800px;
+    display: inline-block;
+}
+ul li{
+    list-style: none;
+    margin-top: 40px;
+    display: inline-block;
+    padding-right: 40px;
+    font-family: 'poppins';
+    font-style: normal;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+img{
+    margin-right: 20px;
+    display: inline-block;
+    border-radius: 300px;
+    height:200px;
+    width:200px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.logo{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 34px;
+    top: 43px;
+    margin-top: -135px;
+    margin-left: -100px;
+}
+#Instagram{
+    color:white;
+    font-family: 'poppins';
+}
+#Spotify{
+    color:white;
+    font-family: 'poppins';
+}
+#Youtube{
+    color:white;
+    font-family: 'poppins';
+}
+#socio{
+    margin-left: 40px;
+    margin-top: 60px;
+}

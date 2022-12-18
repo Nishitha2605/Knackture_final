@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    function validate()
+    {
+      if ( document.loginForm.username.value == '' )
+      {
+        alert('Please enter username');
+        document.loginForm.username.focus();
+        return false;
+      }
+      if ( document.loginForm.linkedin.value == '' )
+      {
+        alert('Please enter Linkedin Id');
+        document.loginForm.linkedin.focus();
+        return false;
+      }
+      if ( document.loginForm.email.value == '' )
+      {
+        alert('Please enter email');
+        document.loginForm.email.focus();
+        return false;
+      }
+      if ( document.loginForm.designation.value == '' )
+      {
+        alert('Please enter designation');
+        document.loginForm.designation.focus();
+        return false;
+      }
+      if ( document.loginForm.username.value.length < 6 )
+      {
+        alert('Username must be minimum 6 characters');
+        document.loginForm.username.focus();
+        return false;
+      }
+      if ( document.loginForm.password.value == '' )
+      {
+        alert('Please Enter Password');
+        document.loginForm.password.focus();
+        return false;
+      }
+      if ( document.loginForm.password.value.length < 6 )
+      {
+        alert('Password must be minimun 6 characters');
+        document.loginForm.password.focus();
+        return false;
+      }
+      else{
+        alert('Registered Successfully');
+        return true;
+        
+          }
+    }
+  </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+   <form action="LandingPage.html" name="loginForm" method="post">
+       <div class="RegisterPage">
+         <div class="background">
+          <div class="logo">
+            <img src="logo.png" style="width:150px; height:100px;">
+          </div>
+          <div id="anchor">
+            <ul>
+              <li><a href="LandingPage.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="collaborate.html">COLLABORATE</a></li>
+              <li><a href="update.html">UPDATES</a></li>
+              <li><a href="socio.html">SOCIO</a></li>
+              </ul>
+          </div> 
+          <div id="glass">
+          <div id="register">
+            <br><p style="margin-left:150px; font-size: 27px;"></p><br>
+            <div id="txt">
+                <div id="left">
+                    <p> Enter Username:<br><br></p>
+                    <input type="text" name="username"><br><br>
+                    <p> Enter Designation:<br><br></p>
+                    <input type="text" name="designation"><br><br>
+                    <p> Enter Email id:<br><br></p>
+                    <input type="text" name="email"><br><br>
+                </div>
+                <div id="right">
+                    <p> Create a password:<br><br></p>
+                    <input type="password" name="password" style="margin-left:20px;"><br><br>
+                    <p> Enter Linkedin id:<br><br></p>
+                    <input type="text" name="linkedin"><br><br>
+                    <input type="submit" value="Register" onClick="return validate()">
+                </div>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
