@@ -8,7 +8,7 @@ body,html{
     height:100%;
 }
 .background{
-    background-image:url("register_img.png");
+    background-image:url("Register_img.png");
     height:100vh;
     background-position: center;
     background-repeat: no-repeat;
